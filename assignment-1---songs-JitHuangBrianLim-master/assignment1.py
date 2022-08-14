@@ -50,7 +50,6 @@ def main():
                     print("Invalid Input; enter a valid number")
                 learn_song = input("Year: ")
 
-            # for learn_song >
             learn_song = int(learn_song)
             while learn_song > number_of_songs:
                 print("Invalid song number")
